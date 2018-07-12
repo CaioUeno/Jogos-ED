@@ -1,0 +1,3 @@
+O Jogo construído foi o BlackJack, ou 21, onde consiste num dealer e um jogador, as cartas são distribuídas para ambos e aquele que a soma dos pontos forem mais próxima de 21, sem ultrapssar, ganha a aposta. Foi implementada uma pilha para simular a pilha de cartas de forma mais realista possível. Esta possui sua implementação em Stack.c e os cabeçalhos em Stack.h, Já as funções para o BlackJack estão em seu respectivo .c e .h.
+
+USO DO MAKEFILE: para compilar e jogar use make, para apenas compilar o jogo use make comp. Se ja estiver compilado use make play para jogar, e para limpar o executável use make clean.

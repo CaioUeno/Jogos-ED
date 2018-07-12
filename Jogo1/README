@@ -1,0 +1,6 @@
+O jogo se baseia em fundir átomos dentro de uma lista circular, entretanto somente átomos iguais podem ser fundidos, utilizando-se o "+". Além disso é possível ocorrer mais de uma fusão ao mesmo tempo, caso os átomos adjacentes de um átomo que acabou de ser formado por outros dois também sejam iguais. o objetivo é chegar no último átomo da tabela periódica, elemento 118. Caso o jogador ultrapasse o limite de 20 elementos na lista o jogo termina.
+
+USO DO MAKEFILE: Apenas utilizar o comando make irá compilar os arquivos .c e irá rodar logo em seguida o jogo, para apenas compilar use "make comp", caso já tenha compilado os arquivos, use
+"make play" para rodar o jogo, ou ./Jogo na linha de comando do terminal. Se precisar limpar o diretório, use "make clean", irá restar apenas os arquivos .c e a biblioteca .h.
+
+O jogo está modularizado em muitas funções, entretanto na main só possui uma que faz uma chamada geral para toda a trama do jogo. Possui um arquivo .h com os nomes das funções e um .c com as respectivas implementações.
